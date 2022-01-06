@@ -1,0 +1,229 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: normal;
+  font-family: "Yeseva One", cursive;
+  padding-left: 10px;
+  line-height: 80px;
+}
+
+.line {
+  border-left: 4px solid;
+  border-image: linear-gradient(orange, salmon);
+  position: absolute;
+  top: 175px;
+  height: 110px;
+  border-radius: 10px;
+  left: 175px;
+  border-image-slice: 1;
+}
+
+.text-color {
+  color: darkturquoise;
+}
+
+.flexible-container {
+  display: flex;
+  padding-left: 12%;
+}
+
+.half-width {
+  width: 60%;
+}
+
+.section-one img {
+  width: 75%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#section-one {
+  padding-top: 100px;
+}
+
+.text {
+  width: 700px;
+  color: #3e3e3e;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 20px;
+  line-height: 28px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(darkcyan, turquoise);
+  color: white;
+  font-weight: 700px;
+  padding: 15px 40px;
+  border-radius: 20px;
+}
+
+/* SECTION 2 */
+
+.section-two h2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  color: #333333;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.section-two-text {
+  padding-right: 30px;
+  color: #424242;
+}
+
+.box {
+  width: 27%;
+  padding-left: 20px;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.box img {
+  width: 150px;
+}
+
+#mission {
+  background-color: mistyrose;
+  padding: 25px;
+}
+
+#vision {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: lightcyan;
+  padding: 25px;
+}
+
+#goal {
+  margin-right: 10%;
+  background-color: lightyellow;
+  padding: 25px;
+}
+
+/* SECTION 3 */
+
+.section-three h2 {
+  font-size: 36px;
+  color: 333333;
+  text-align: left;
+  line-height: 54px;
+}
+.section-three {
+  padding-top: 10%;
+  background-image: url(images/shapes/shape-10.png);
+  background-repeat: no-repeat;
+  background-position: 50px;
+}
+
+.section-three .half-width {
+  width: 32%;
+}
+
+#section-three-text {
+  padding-left: 60px;
+}
+
+.section-three img {
+  width: 400px;
+}
+
+/* SECTION 4 */
+
+.section-four {
+  padding-top: 7%;
+  background-image: url(images/shapes/shape-1.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: 1250px;
+  background-position-y: 200px;
+}
+
+.section-four .half-width {
+  width: 60%;
+}
+
+.section-four img {
+  width: 400px;
+  padding-left: 80px;
+}
+
+/* SECTION 5 */
+
+.section-five {
+  padding: 50px;
+}
+
+.section-five h2 {
+  text-align: center;
+}
+
+input[type="text"],
+textarea {
+  font-family: "Poppins", sans-serif;
+  background-color: ghostwhite;
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  text-decoration: none;
+  background-image: linear-gradient(darkcyan, turquoise);
+  color: white;
+  font-size: 17px;
+  padding: 15px 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.button {
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: gray;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-weight: normal;
+  color: white;
+}
+
+footer span {
+  color: darkcyan;
+}
